@@ -1,0 +1,49 @@
+
+$primary-color: black;
+$secondary-color: darken(#fff, 10); 
+$gold-color: rgb(214, 183, 25);
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.body {
+    background: $primary-color;
+    box-sizing: border-box;
+    color: $secondary-color;
+    font-family: 'Fredericka the Great', cursive; // or dipolomata, gravitas also works
+}
+
+
+// Media query mixins
+@mixin mediaSm {
+    @media screen and (max-width: 500px) {
+        @content;
+    }
+}
+
+@mixin mediaMd {
+    @media screen and (min-width: 501px) and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin mediaLg {
+    @media screen and (min-width: 769px) and (max-width: 1170px) {
+        @content;
+    }
+}
+
+@mixin mediaXl {
+    @media screen and (min-width: 1171px) {
+        @content;
+    }
+}

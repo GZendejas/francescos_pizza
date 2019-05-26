@@ -1,0 +1,88 @@
+
+
+
+@include mediaSm {
+    .navbar-nav {
+        visibility: hidden;
+    }
+   
+    .menu-pizzas__description {
+        width: 70%;
+    }
+
+    .menu-other {
+        display: block;
+    }
+    .menu-drinks,
+    .menu-sides {
+        display: block;
+    }
+
+    .about-food__container,
+    .about-fran__container {
+        display: block;
+    }
+
+    .about-food__fresh-photo-container,
+    .about-fran__fresh-photo-container {
+        height: 20rem;
+        
+        margin-bottom: 2rem;
+    }
+
+    .about-food__fresh-text,
+    .about-fran__fresh-text {
+        padding: 0;
+    }
+}
+
+@include mediaMd {
+
+    .menu-pizzas__description {
+        width: 70%;
+    }
+
+    .menu-other {
+        display: block;
+    }
+    .menu-drinks,
+    .menu-sides {
+        display: block;
+    }
+
+
+    .about-food__container,
+    .about-fran__container {
+        display: block;
+    }
+
+    .about-food__fresh-photo-container,
+    .about-fran__fresh-photo-container {
+        height: 30rem;
+        margin-bottom: 2rem;
+        
+    }
+
+    .about-food__fresh-text,
+    .about-fran__fresh-text {
+        padding: 0;
+    }
+}
+
+@include mediaLg {
+    .about-food__fresh-photo-container,
+    .about-fran__fresh-photo-container {
+        height: 30rem;
+    }
+}
+
+@include mediaXl {
+    html {
+        font-size: 80%;
+    }
+
+    section {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+}

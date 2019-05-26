@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Restaurant</title>
+</head>
+<body class="body">
+    <nav class="navbar">
+        <span class="open-slide">
+            <a href="#" onclick="openSlideMenu()">
+                <svg width="30" height="30">
+                    <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                    <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                    <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+                </svg>
+            </a>
+        </span>
+        <ul class="navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about-food">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="side-menu" class="side-nav">
+        <a href="javascript:void()" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="#about-food" onclick="closeSlideMenu()">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="#contact" onclick="closeSlideMenu()">Contact</a>
+    </div>
+    <div id="main">
+        <header class="header">
+            <div class="heading-primary__container">
+                    <h1 class="heading-primary__text">
+                        <span class="heading-primary__main">Francesco's Pizzeria</span>
+                        <span class="heading-primary__sub">The best slice in town!</span>
+                        <a href="./menu.html" class="btn btn-main">Menu</a>
+                    </h1>
+            </div>
+        </header>
+        <section id="about-food" class="about-food">
+            <h2 class="about-food__heading">The freshest ingredients...</h2>
+            <div class="about-food__container">
+                <div class="about-food__fresh-photo-container">
+                    <img class="about-food__fresh-photo" src="./imgs/fresh-pizza.jpg" alt="fresh tomatoes">
+                </div>
+                <div class="about-food__fresh-text">
+                    <p class="about-food__fresh-text--p1">Here at Francesco's, we only use the freshest ingredients. We have agreements with several local suppliers to bring you the highest quality foods. Our vegetables are mostly locally sourced, and in-season. Our fresh meats come from sustainable local ranchers.</p>
+                    <p class="about-food__fresh-text--p2">We also take great care in preparing our meals. All our pizza doughs are hand-tossed using authentic, traditional methods.</p>
+                </div>
+            </div>
+        </section>
+        <section class="about-fran">
+            <h2 class="about-fran__heading">Who is Francesco...</h2>
+            <div class="about-fran__container">
+                
+                
+                <div class="about-fran__fresh-photo-container">
+                    <img class="about-fran__fresh-photo" src="./imgs/village.jpg" alt="fresh tomatoes">
+                </div>
+                <div class="about-fran__fresh-text">
+                    <p class="about-fran__fresh-text--p1">In 1934, at the age of 22, Francesco Caruso left his home in Sicily to start a new life in America. He arrived in New York only a few dollars, and the address of a distant cousin. That cousin gave him his first restaurant job as a dishwasher, and later his second job as a cook.</p>
+                    <p class="about-fran__fresh-text--p2">In 1950, Francesco took his years of experience to the west coast, where he opened a restaurant in San Jose (the first location was on 1st street). Francesco passed away in 1988, but his legacy lives on.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="contact__container">
+                <h2 class="contact__heading">Contact Us</h2>
+                <h3 class="contact__label">Phone</h3>
+                <p class="contact__value">
+                    408-***-****
+                </p>
+                <h3 class="contact__label">Address</h3>
+                <p class="contact__value">1411 Boulder Rd</p>
+                <p class="contact__value">San Jose, CA 95116</p>
+                <h3 class="contact__label">Email</h3>
+                <p class="contact__value">
+                    pr@francescos.com
+                </p>
+            </div>
+            
+            <!-- <div class="contact__row-container">
+                <div class="contact__empty-left">
+
+                </div>
+                <div class="contact__label">
+                    Phone:
+                </div>
+                <div class="contact__value">
+                    408-***-****
+                </div>
+                <div class="contact__empty-right">
+
+                </div>
+            </div>
+            <div class="contact__row-container">
+                <div class="contact__empty-left">
+
+                </div>
+                <div class="contact__label">
+                    Address:
+                </div>
+                <div class="contact__value">
+                    <p>1411 Boulder Rd</p>
+                    <p>San Jose, CA 95116</p>
+                </div>
+                <div class="contact__empty-right">
+
+                </div>
+            </div>
+            <div class="contact__row-container">
+                <div class="contact__empty-left">
+
+                </div>
+                <div class="contact__label">
+                    Email:
+                </div>
+                <div class="contact__value">
+                    pr@francescos.com
+                </div>
+                <div class="contact__empty-right">
+
+                </div>
+            </div> -->
+        </section>
+        <footer class="footer">
+            Copyright &copy; 2019 Guillermo Zendejas
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

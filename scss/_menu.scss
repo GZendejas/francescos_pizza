@@ -1,0 +1,135 @@
+
+// Menu Page
+
+
+.menu-header {
+    background-image: url('../imgs/plate.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-top: .2rem solid $secondary_color;
+    border-bottom: .2rem solid $secondary_color;
+    height: 40vh;
+    position: relative;
+    
+}
+
+.menu-heading-primary__container {
+    background: $primary-color;
+    border: solid 2px $gold-color;
+    border-radius: 2.5rem;
+    left: 50%;
+    padding: 2rem;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-heading-primary__main {
+    color: $secondary_color;
+    font-size: 7rem;
+    font-weight: 400;
+}
+
+
+// Pizza Section of Menu
+
+.menu-pizzas {
+    text-align: center;
+}
+
+.menu-pizzas__heading {
+    border-bottom: 2px solid $secondary_color;
+    font-size: 3rem;
+    display: inline-block;
+    letter-spacing: .4rem;
+    margin-top: 10rem;
+    padding-bottom: .8rem;
+    text-align: center;
+    width: 90%;
+    
+    
+}
+
+.menu-pizzas__size-label-row {
+    margin-top: 4rem;
+    display: flex;
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.size-box {
+    flex: 1;
+    font-size: 2rem;
+}
+
+.price {
+    color: $gold-color;
+}
+
+.menu-pizzas__name {
+    font-size: 2.5rem;
+    margin-top: 4rem;
+}
+
+.menu-pizzas__description {
+    color: $gold-color;
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: .5rem;
+    width: 30%;
+}
+
+
+// Other Section of Menu - Drinks and Sides
+
+.menu-other {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+
+.menu-drinks,
+.menu-sides {
+    flex: 1;
+    margin-top: 10rem;
+   
+}
+
+
+
+
+.menu-other__item-row {
+    display: flex;
+    
+}
+
+.menu-other__item-name {
+    flex: 2;
+    font-size: 2rem;
+    padding-left: 5rem;
+    text-align: left;
+}
+
+.menu-other__item-price {
+    flex: 1;
+    font-size: 2rem;
+}
+
+
+
+.menu-drinks__heading,
+.menu-sides__heading {
+    border-bottom: 2px solid $secondary_color;
+    display: inline-block;
+    font-size: 3rem;
+    letter-spacing: .4rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    padding-bottom: .8rem;
+    text-align: center;
+    width: 95%;
+    
+}

@@ -1,0 +1,210 @@
+@import "config";
+@import "hidden";
+@import "menu";
+
+
+
+section {
+    padding: 5.0rem;
+}
+
+
+// Header
+
+.header {
+    background-image: url('../imgs/lg-pizza-vine.jpg');
+    background-size: cover;
+    background-position: bottom;
+    border-bottom: .2rem solid $secondary-color;
+    border-top: .2rem solid $secondary-color;
+    height: 85vh;
+    margin-bottom: 9rem;
+    position: relative;
+    
+}
+
+.heading-primary__container {
+    background: $primary-color;
+    border: solid $secondary-color 2px;
+    border-radius: 2.5rem;
+    left: 50%;
+    padding: 2rem;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading-primary__main {
+    font-size: 5.0rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+}
+
+.heading-primary__sub {
+    color: $gold-color;
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-main {
+    border: $secondary-color solid .2rem;
+    border-radius: 5rem;
+    color: $secondary-color;
+    letter-spacing: .3rem;
+    margin-top: 2rem;
+    padding: .2rem 1rem;
+}
+
+.btn-main:hover {
+    color: $gold-color;
+}
+
+
+// Fresh Ingredients Section
+
+.about-food__heading {
+    color: $gold-color;
+    font-size: 3.0rem;
+    margin-bottom: 2rem;
+    letter-spacing: .2rem;
+    position: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.about-food__container {
+    display: flex;
+}
+
+.about-food__fresh-photo-container {
+    flex: 1;
+    position: relative;
+}
+
+.about-food__fresh-photo {
+    display: block;
+    border: solid $secondary-color .2rem;
+    border-radius: 2rem;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+}
+
+.about-food__fresh-text {
+    color: $secondary-color;
+    flex: 2;
+    font-size: 2.0rem;
+    letter-spacing: .2rem;
+    line-height: 4rem;
+    padding: 0 0 0 5rem  ;
+}
+
+.about-food__fresh-text--p2 {
+    margin-top: 2rem;
+}
+
+
+
+// Who is Francesco Section
+
+
+.about-fran__heading {
+    color: $gold-color;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    letter-spacing: .2rem;
+    position: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.about-fran__container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.about-fran__fresh-photo-container {
+    flex: 1;
+    position: relative;
+}
+
+.about-fran__fresh-photo {
+    display: block;
+    border: solid $secondary-color .2rem;
+    border-radius: 2rem;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+}
+
+.about-fran__fresh-text {
+    color: $secondary-color;
+    flex: 2;
+    font-size: 2.0rem;
+    letter-spacing: .2rem;
+    line-height: 4rem;
+    padding: 0 5rem 0 0;
+}
+
+.about-fran__fresh-text--p2 {
+    margin-top: 2rem;
+}
+
+
+
+// Contact section
+.contact {
+    text-align: center;
+}
+
+.contact__heading {
+    color: $gold-color;
+    font-size: 3.0rem;
+    margin-bottom: 1rem;
+    letter-spacing: .2rem;
+    position: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.contact__container {
+    display: inline-block
+}
+
+
+.contact__label { 
+    color: $gold-color;
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
+  
+}
+
+.contact__value {
+    font-size: 2rem;
+}
+
+
+
+
+.footer {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+@import "mobile";
