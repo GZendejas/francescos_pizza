@@ -21,15 +21,15 @@ body {
 }
 
 .navbar a {
-    float: left;
     display: block;
     color: $secondary-color;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    float: left;
     font-size: 18px;
     letter-spacing: .2rem;
-    
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .navbar ul {
@@ -55,11 +55,13 @@ body {
 }
 
 .side-nav a {
-    padding: 10px 10px 10px 30px;
-    text-decoration: none;
-    font-size: 22px;
     color: $secondary-color;
     display: block;
+    font-size: 22px;
+    letter-spacing: .2rem;
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
     transition: .3s;
 }
 
