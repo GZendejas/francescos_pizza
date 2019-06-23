@@ -31,14 +31,15 @@ body {
   padding-left: 50px; }
 
 .navbar a {
-  float: left;
   display: block;
   color: #e6e6e6;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  float: left;
   font-size: 18px;
-  letter-spacing: .2rem; }
+  letter-spacing: .2rem;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase; }
 
 .navbar ul {
   margin: 8px 0 0 0;
@@ -60,11 +61,13 @@ body {
   transition: 0.5s; }
 
 .side-nav a {
-  padding: 10px 10px 10px 30px;
-  text-decoration: none;
-  font-size: 22px;
   color: #e6e6e6;
   display: block;
+  font-size: 22px;
+  letter-spacing: .2rem;
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
   transition: .3s; }
 
 .side-nav a:hover {
