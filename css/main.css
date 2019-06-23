@@ -12,7 +12,8 @@ html {
   background: black;
   box-sizing: border-box;
   color: #e6e6e6;
-  font-family: 'Fredericka the Great', sans-serif; }
+  font-family: 'Fredericka the Great', times;
+  font-family: Times, serif; }
 
 body {
   overflow-x: hidden; }
@@ -188,6 +189,7 @@ section {
   background-position: bottom;
   border-bottom: 0.2rem solid #e6e6e6;
   border-top: 0.2rem solid #e6e6e6;
+  font-family: 'Fredericka the Great', times;
   height: 85vh;
   margin-bottom: 9rem;
   position: relative; }
