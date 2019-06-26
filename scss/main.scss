@@ -28,6 +28,7 @@ section {
     background: $primary-color;
     border: solid $secondary-color 2px;
     border-radius: 2.5rem;
+ 
     left: 50%;
     padding: 2rem;
     position: absolute;
@@ -43,7 +44,7 @@ section {
 }
 
 .heading-primary__sub {
-    color: $gold-color;
+    color: $gold-color; 
     display: block;
     font-size: 2rem;
     font-weight: 400;

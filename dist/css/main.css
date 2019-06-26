@@ -339,6 +339,8 @@ section {
   margin-bottom: 2rem; }
 
 @media screen and (max-width: 500px) {
+  .heading-primary__main {
+    font-size: 4.5rem; }
   .navbar-nav {
     visibility: hidden; }
   .menu-pizzas__description {

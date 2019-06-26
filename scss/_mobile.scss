@@ -2,6 +2,10 @@
 
 
 @include mediaSm {
+    .heading-primary__main {
+        font-size: 4.5rem;
+    }
+
     .navbar-nav {
         visibility: hidden;
     }
